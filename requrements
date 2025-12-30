@@ -1,2 +1,4 @@
 requests
 gradio
+pyinstaller
+ffmpeg-python
