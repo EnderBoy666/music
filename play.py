@@ -251,6 +251,6 @@ with gr.Blocks(title="音乐播放端") as play_app:
 if __name__ == "__main__":
     play_app.launch(
         server_port=8124,
-        # server_name="0.0.0.0"  # 允许局域网访问
-        # share=True  # 如需公网访问，取消注释
+        server_name="0.0.0.0"  # 允许局域网访问
+        share=True  # 如需公网访问，取消注释
     )
